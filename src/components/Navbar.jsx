@@ -11,7 +11,7 @@ const Navbar = () => {
       </div>
       <div className="mr-4 mt-3">
         <button type="button" className="text-white">
-          <i className="fa-solid fa-bars"></i>
+          <i className="fa-solid fa-bars" />
         </button>
       </div>
     </nav>
