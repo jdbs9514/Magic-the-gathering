@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between bg-zinc-900 p-1">
+    <nav className="flex justify-between bg-zinc-900 p-1">
       <div className="ml-6">
         <Link to="/">
           <img src={mtg} alt="logo" className="w-[50%]" />
@@ -14,7 +14,7 @@ const Navbar = () => {
           <i className="fa-solid fa-bars"></i>
         </button>
       </div>
-    </div>
+    </nav>
   );
 };
 
