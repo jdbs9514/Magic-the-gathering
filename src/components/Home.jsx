@@ -22,7 +22,7 @@ const Home = () => {
                 key={card.id}
                 className="w-[90%] flex justify-center m-1 mt-4"
               >
-                <Link to={`/${card.id}`}>
+                <Link to={`/cards/${card.id}`}>
                   <img
                     src={card.imageUrl}
                     alt="card"
