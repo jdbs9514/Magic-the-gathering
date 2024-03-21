@@ -13,7 +13,7 @@ const Home = () => {
 
   return (
     <div className="bg-gradient-to-r from-zinc-900">
-      <div className="grid grid-cols-4">
+      <div className="grid grid-cols-4 ml-8">
         {cards.map(
           (card) =>
             // con esta condicion solo se mostrar las imagenes que si lleguen a renderizar
