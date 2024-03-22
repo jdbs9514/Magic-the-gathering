@@ -26,7 +26,7 @@ const Home = () => {
                   <img
                     src={card.imageUrl}
                     alt="card"
-                    className="w-[80%] cursor-pointer"
+                    className="w-[80%] cursor-pointer hover:scale-125 lg:scale-75"
                   />
                 </Link>
               </div>
