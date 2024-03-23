@@ -16,18 +16,41 @@ const Navbar = () => {
           <img src={mtg} alt="logo" className="w-[50%]" />
         </Link>
       </div>
+      <div className="">
+        <ul className="lg:flex gap-6 mr-8 ">
+          <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125">
+            Information
+          </li>
+          <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125">
+            Home
+          </li>
+          <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125">
+            Contac
+          </li>
+        </ul>
+      </div>
       {isOpen ? (
         <div>
           <div className="flex justify-end mr-4 mt-3">
-            <button type="button" onClick={handleClick} className="text-white hover:animate-spin">
+            <button
+              type="button"
+              onClick={handleClick}
+              className="text-white hover:animate-spin"
+            >
               <i className="fa-solid fa-x" />
             </button>
           </div>
           <div>
             <ul className="absolute right-0 mt-5 mr-5 p-10 bg-zinc-900 opacity-75 rounded-lg">
-              <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125">Information</li>
-              <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125">Home</li>
-              <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125">Contac</li>
+              <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125">
+                Information
+              </li>
+              <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125">
+                Home
+              </li>
+              <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125">
+                Contac
+              </li>
             </ul>
           </div>
         </div>
