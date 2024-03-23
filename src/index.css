@@ -9,3 +9,12 @@
   font-weight: 400;
   font-style: normal;
 }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
