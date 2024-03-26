@@ -16,8 +16,8 @@ const Navbar = () => {
           <img src={mtg} alt="logo" className="w-[50%]" />
         </Link>
       </div>
-      <div className="">
-        <ul className="lg:flex gap-6 mr-8 ">
+      <div className="sm:flex hidden">
+        <ul className="lg:flex gap-6 mr-8">
           <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125">
             Information
           </li>
