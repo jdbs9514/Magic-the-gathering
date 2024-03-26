@@ -50,7 +50,7 @@ const Cards = () => {
           </div>
           <div className="lg:flex justify-center lg:gap-10 lg:mt-16">
             <div className="flex justify-center lg:w-[80%]">
-              <img src={card.imageUrl} className="mt-12" />
+              <img src={card.imageUrl} alt="hola" className="mt-12" />
             </div>
             <div className="lg:mt-8 lg:w-[50%]">
               <div className="sm:flex-col text-center lg:text-left">
