@@ -1,15 +1,15 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Magic The Gathering
 
-> Description the project.
+> This is a landing page of the card game magic make with React/Redux and async function to display a list of card provide of an API.
 
+![](/src/assets/images/magic.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML/CSS
+- JavaScript
+- React/Redux
 
 ## Live Demo (if available)
 
@@ -18,39 +18,29 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
 
 ### Setup
-
+````
+$git clone https://github.com/jdbs9514/magic-the-gathering.git
+````
 ### Install
-
-### Usage
-
-### Run tests
+````
+$npm install
+````
 
 ### Deployment
-
+- Netlify
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@jdbs9514](https://github.com/jdbs9514)
+- LinkedIn: [Josué](https://linkedin.com/in/macoin)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 

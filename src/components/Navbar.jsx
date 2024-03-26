@@ -19,15 +19,11 @@ const Navbar = () => {
       <div className="sm:flex hidden">
         <ul className="lg:flex gap-8 mr-8 md:flex md:gap-8 md:mr-8 sm:hidden">
           <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125 hover:text-blue-400">
-            <Link to="#">Information</Link>
+            <Link to="https://en.wikipedia.org/wiki/Magic:_The_Gathering">Information</Link>
           </li>
 
           <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125 hover:text-blue-400">
             <Link to="https://magic.wizards.com/es">Magic Official</Link>
-          </li>
-
-          <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125 hover:text-blue-400">
-            <Link>Contact</Link>
           </li>
 
         </ul>
@@ -46,13 +42,10 @@ const Navbar = () => {
           <div>
             <ul className="absolute right-0 mt-5 mr-5 p-10 bg-zinc-900 opacity-75 rounded-lg shadow-lg shadow-zinc-900/40">
               <li className="text-white mt-6 text-xl cursor-pointer hover:scale-125 hover:text-blue-400">
-                <Link to="#">Information</Link>
+                <Link to="https://en.wikipedia.org/wiki/Magic:_The_Gathering">Information</Link>
               </li>
               <li className="text-white mt-6 text-xl cursor-pointer hover:scale-125 hover:text-blue-400">
                 <Link to="https://magic.wizards.com/es">Magic Official</Link>
-              </li>
-              <li className="text-white mt-6 text-xl cursor-pointer hover:scale-125 hover:text-blue-400">
-                <Link to="#">Contact</Link>
               </li>
             </ul>
           </div>
