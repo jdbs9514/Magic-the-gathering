@@ -17,15 +17,15 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="sm:flex hidden">
-        <ul className="lg:flex gap-6 mr-8">
-          <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125">
+        <ul className="lg:flex gap-8 mr-8 md:flex md:gap-8 md:mr-8 sm:hidden">
+          <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125 hover:text-blue-400">
             Information
           </li>
-          <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125">
-            Home
+          <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125 hover:text-blue-400">
+            Magic Official
           </li>
-          <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125">
-            Contac
+          <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125 hover:text-blue-400">
+            Contact
           </li>
         </ul>
       </div>
@@ -42,14 +42,14 @@ const Navbar = () => {
           </div>
           <div>
             <ul className="absolute right-0 mt-5 mr-5 p-10 bg-zinc-900 opacity-75 rounded-lg">
-              <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125">
+              <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125 hover:text-blue-400">
                 Information
               </li>
-              <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125">
-                Home
+              <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125 hover:text-blue-400">
+                Magic Official
               </li>
-              <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125">
-                Contac
+              <li className="text-white mt-6 font-bold text-xl cursor-pointer hover:scale-125 hover:text-blue-400">
+                Contact
               </li>
             </ul>
           </div>
