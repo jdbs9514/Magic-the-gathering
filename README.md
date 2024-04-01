@@ -36,7 +36,7 @@ $npm install
 
 ## Authors
 
-👤 **Author1**
+👤 **Josué Benavides**
 
 - GitHub: [@jdbs9514](https://github.com/jdbs9514)
 - LinkedIn: [Josué](https://linkedin.com/in/macoin)
